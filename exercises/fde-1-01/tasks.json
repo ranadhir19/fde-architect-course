@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "task": "Demo the standard product to a prospect's leadership team before the contract is signed, using the prospect's own slides."
+  },
+  {
+    "id": 2,
+    "task": "Embed with a signed customer for six weeks, write the ingestion pipeline inside their VPC, and own whether invoice-processing time actually falls."
+  },
+  {
+    "id": 3,
+    "task": "Design a target architecture for the customer's cloud migration and hand the design to their engineering team to build."
+  },
+  {
+    "id": 4,
+    "task": "Advise the COO on whether to build or buy an AI support platform and deliver a strategy report."
+  },
+  {
+    "id": 5,
+    "task": "Build a reusable export feature used by all customers, prioritised on the public roadmap."
+  },
+  {
+    "id": 6,
+    "task": "Sit with support agents for two days, find the workflow worth automating, and scope the first slice."
+  },
+  {
+    "id": 7,
+    "task": "Answer a prospect's technical questions in an RFP response before purchase."
+  },
+  {
+    "id": 8,
+    "task": "After go-live, run the shadow-mode rollout, watch adoption weekly, and redesign the workflow when agents ignore the tool."
+  },
+  {
+    "id": 9,
+    "task": "Write a market-entry white paper recommending which segments the firm should target next year."
+  },
+  {
+    "id": 10,
+    "task": "Choose the vector database for the platform team and set the standard every product squad must follow."
+  },
+  {
+    "id": 11,
+    "task": "Fix a defect in the shared billing service that affects every tenant."
+  },
+  {
+    "id": 12,
+    "task": "Build an MCP server exposing three safe operations of the customer's legacy claims system, inside their environment, with their security team's constraints."
+  }
+]
