@@ -1,0 +1,26 @@
+week,agent_id,agent_name,shift,notes
+1,agent_01,A. Rahman,late 10-18,walk-up desk cover
+1,agent_02,J. Okafor,early 08-16,
+1,agent_03,L. Doyle,late 10-18,
+1,agent_04,P. Novak,early 08-16,
+1,agent_05,S. Whitfield,off,
+1,agent_06,R. Iqbal,early 08-16,
+2,agent_01,A. Rahman,early 08-16,
+2,agent_02,J. Okafor,late 10-18,
+2,agent_03,L. Doyle,,
+2,agent_04,P. Novak,off,
+2,agent_05,S. Whitfield,early 08-16,
+2,agent_06,R. Iqbal,late 10-18,
+3,agent_01,A. Rahman,late 10-18,walk-up desk cover
+3,agent_02,J. Okafor,early 08-16,
+3,agent_03,L. Doyle,off,
+3,agent_04,P. Novak,early 08-16,
+3,agent_05,S. Whitfeld,late 10-18,
+3,agent_06,R. Iqbal,early 08-16,
+4,agent_01,A. Rahman,early 08-16,
+4,agent_02,J. Okafor,off,
+4,agent_03,L. Doyle,early 08-16,
+4,agent_04,P. Novak,late 10-18,
+4,agent_05,S. Whitfield,early 08-16,
+4,agent_06,R. Iqbal,late 10-18,
+1,senior,Mags (senior agent),09-17,"hard ones - walk-up, no queue"
