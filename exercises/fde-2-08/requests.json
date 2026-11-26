@@ -1,0 +1,122 @@
+[
+ {
+  "id": "R01",
+  "feature": "Discharge brief from retrieval",
+  "proto_hours": 4,
+  "value": 5,
+  "blocked": false,
+  "safety": false,
+  "fakeable": false,
+  "harden_note": "Citation check and restricted-document filter must be re-proved on the production corpus before any live use."
+ },
+ {
+  "id": "R02",
+  "feature": "Medication guardrail banner",
+  "proto_hours": 2,
+  "value": 5,
+  "blocked": false,
+  "safety": true,
+  "fakeable": true,
+  "harden_note": "The banner logic must be built and eval-tested for real; a canned banner proves placement only."
+ },
+ {
+  "id": "R03",
+  "feature": "Live bed-board integration",
+  "proto_hours": 6,
+  "value": 4,
+  "blocked": true,
+  "safety": false,
+  "fakeable": false,
+  "harden_note": ""
+ },
+ {
+  "id": "R04",
+  "feature": "PDF export of the brief",
+  "proto_hours": 2,
+  "value": 3,
+  "blocked": false,
+  "safety": false,
+  "fakeable": false,
+  "harden_note": ""
+ },
+ {
+  "id": "R05",
+  "feature": "Single sign-on login",
+  "proto_hours": 5,
+  "value": 2,
+  "blocked": false,
+  "safety": true,
+  "fakeable": true,
+  "harden_note": "Real authentication, session handling and access control must replace the local stand-in screen."
+ },
+ {
+  "id": "R06",
+  "feature": "Patient reference redaction check",
+  "proto_hours": 3,
+  "value": 5,
+  "blocked": false,
+  "safety": true,
+  "fakeable": false,
+  "harden_note": ""
+ },
+ {
+  "id": "R07",
+  "feature": "Feedback thumbs on each brief",
+  "proto_hours": 1,
+  "value": 2,
+  "blocked": false,
+  "safety": false,
+  "fakeable": false,
+  "harden_note": ""
+ },
+ {
+  "id": "R08",
+  "feature": "Voice input for ward staff",
+  "proto_hours": 4,
+  "value": 2,
+  "blocked": false,
+  "safety": false,
+  "fakeable": false,
+  "harden_note": ""
+ },
+ {
+  "id": "R09",
+  "feature": "Night-shift handoff summary",
+  "proto_hours": 3,
+  "value": 4,
+  "blocked": false,
+  "safety": false,
+  "fakeable": false,
+  "harden_note": "Handoff wording must be reviewed with the night-shift lead before production; the prototype uses daytime wording."
+ },
+ {
+  "id": "R10",
+  "feature": "Audit log viewer",
+  "proto_hours": 3,
+  "value": 3,
+  "blocked": false,
+  "safety": true,
+  "fakeable": true,
+  "harden_note": "A real, tamper-evident audit trail must replace the canned log entries shown in the demo."
+ },
+ {
+  "id": "R11",
+  "feature": "Multilingual discharge brief",
+  "proto_hours": 5,
+  "value": 3,
+  "blocked": false,
+  "safety": false,
+  "fakeable": false,
+  "harden_note": ""
+ },
+ {
+  "id": "R12",
+  "feature": "Offline ward mode",
+  "proto_hours": 6,
+  "value": 3,
+  "blocked": true,
+  "safety": false,
+  "fakeable": false,
+  "harden_note": ""
+ }
+]
