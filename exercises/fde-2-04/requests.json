@@ -1,0 +1,174 @@
+[
+ {
+  "caller_role": "ward_staff",
+  "tool": "get_ward_bed_board",
+  "args": {
+   "ward": "A"
+  }
+ },
+ {
+  "caller_role": "bed_manager",
+  "tool": "get_ward_bed_board",
+  "args": {
+   "ward": "B"
+  }
+ },
+ {
+  "caller_role": "ward_staff",
+  "tool": "get_ward_bed_board",
+  "args": {
+   "ward": "C"
+  }
+ },
+ {
+  "caller_role": "ward_staff",
+  "tool": "get_discharge_checklist",
+  "args": {
+   "checklist_type": "standard"
+  }
+ },
+ {
+  "caller_role": "ward_staff",
+  "tool": "get_discharge_checklist",
+  "args": {
+   "checklist_type": "medication"
+  }
+ },
+ {
+  "caller_role": "ward_staff",
+  "tool": "check_followup_availability",
+  "args": {
+   "clinic": "physio",
+   "date": "2026-12-04"
+  }
+ },
+ {
+  "caller_role": "booking_clerk",
+  "tool": "check_followup_availability",
+  "args": {
+   "clinic": "physio",
+   "date": "2026-12-04"
+  }
+ },
+ {
+  "caller_role": "ward_staff",
+  "tool": "check_followup_availability",
+  "args": {
+   "clinic": "dietetics",
+   "date": "2026-12-05"
+  }
+ },
+ {
+  "caller_role": "bed_manager",
+  "tool": "get_ward_bed_board",
+  "args": {
+   "ward": "D"
+  }
+ },
+ {
+  "caller_role": "ward_staff",
+  "tool": "get_patient_record",
+  "args": {
+   "patient_ref": "AC-0001"
+  }
+ },
+ {
+  "caller_role": "ward_staff",
+  "tool": "update_discharge_date",
+  "args": {
+   "patient_ref": "AC-0002",
+   "discharge_date": "2026-12-03"
+  }
+ },
+ {
+  "caller_role": "bed_manager",
+  "tool": "download_discharge_extract",
+  "args": {
+   "month": "2026-11"
+  }
+ },
+ {
+  "caller_role": "booking_clerk",
+  "tool": "approve_billing_charge",
+  "args": {
+   "account_ref": "B-100",
+   "charge_cents": 5000
+  }
+ },
+ {
+  "caller_role": "ward_staff",
+  "tool": "grant_system_access",
+  "args": {
+   "user_ref": "U-9",
+   "role": "ward_staff"
+  }
+ },
+ {
+  "caller_role": "ward_staff",
+  "tool": "get_lab_results",
+  "args": {
+   "patient_ref": "AC-0003"
+  }
+ },
+ {
+  "caller_role": "ward_staff",
+  "tool": "delete_ward_note",
+  "args": {
+   "patient_ref": "AC-0004",
+   "note_id": "N-1"
+  }
+ },
+ {
+  "caller_role": "booking_clerk",
+  "tool": "get_ward_bed_board",
+  "args": {
+   "ward": "A"
+  }
+ },
+ {
+  "caller_role": "booking_clerk",
+  "tool": "get_discharge_checklist",
+  "args": {
+   "checklist_type": "standard"
+  }
+ },
+ {
+  "caller_role": "bed_manager",
+  "tool": "get_discharge_checklist",
+  "args": {
+   "checklist_type": "standard"
+  }
+ },
+ {
+  "caller_role": "bed_manager",
+  "tool": "check_followup_availability",
+  "args": {
+   "clinic": "physio",
+   "date": "2026-12-04"
+  }
+ },
+ {
+  "caller_role": "external_auditor",
+  "tool": "get_ward_bed_board",
+  "args": {
+   "ward": "A"
+  }
+ },
+ {
+  "caller_role": "ward_staff",
+  "tool": "get_ward_bed_board",
+  "args": {}
+ },
+ {
+  "caller_role": "ward_staff",
+  "tool": "get_discharge_checklist",
+  "args": {}
+ },
+ {
+  "caller_role": "booking_clerk",
+  "tool": "check_followup_availability",
+  "args": {
+   "clinic": "physio"
+  }
+ }
+]

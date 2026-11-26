@@ -1,0 +1,156 @@
+[
+ {
+  "name": "get_ward_bed_board",
+  "kind": "read",
+  "data_class": "internal",
+  "allowed_roles": [
+   "ward_staff",
+   "bed_manager"
+  ],
+  "required_args": [
+   "ward"
+  ],
+  "description": "Aggregate bed counts by ward; no patient detail."
+ },
+ {
+  "name": "get_discharge_checklist",
+  "kind": "read",
+  "data_class": "internal",
+  "allowed_roles": [
+   "ward_staff"
+  ],
+  "required_args": [
+   "checklist_type"
+  ],
+  "description": "The standard discharge checklist for a checklist type; guidance only."
+ },
+ {
+  "name": "check_followup_availability",
+  "kind": "read",
+  "data_class": "internal",
+  "allowed_roles": [
+   "ward_staff",
+   "booking_clerk"
+  ],
+  "required_args": [
+   "clinic",
+   "date"
+  ],
+  "description": "Open follow-up appointment slots for a clinic on a date; counts and times only."
+ },
+ {
+  "name": "get_patient_record",
+  "kind": "read",
+  "data_class": "phi",
+  "allowed_roles": [
+   "ward_staff"
+  ],
+  "required_args": [
+   "patient_ref"
+  ],
+  "description": "One patient's full record, including identifiable detail."
+ },
+ {
+  "name": "download_discharge_extract",
+  "kind": "read",
+  "data_class": "phi_bulk",
+  "allowed_roles": [
+   "bed_manager"
+  ],
+  "required_args": [
+   "month"
+  ],
+  "description": "Bulk download of a month of discharge records."
+ },
+ {
+  "name": "update_discharge_date",
+  "kind": "write",
+  "data_class": "phi",
+  "allowed_roles": [
+   "ward_staff"
+  ],
+  "required_args": [
+   "patient_ref",
+   "discharge_date"
+  ],
+  "description": "Change a patient's recorded discharge date."
+ },
+ {
+  "name": "record_medication_change",
+  "kind": "write",
+  "data_class": "phi",
+  "allowed_roles": [
+   "ward_staff"
+  ],
+  "required_args": [
+   "patient_ref",
+   "medication"
+  ],
+  "description": "Write a medication change to a patient's record."
+ },
+ {
+  "name": "approve_billing_charge",
+  "kind": "write",
+  "data_class": "financial",
+  "allowed_roles": [
+   "booking_clerk"
+  ],
+  "required_args": [
+   "account_ref",
+   "charge_cents"
+  ],
+  "description": "Approve a charge against a patient account."
+ },
+ {
+  "name": "send_patient_email",
+  "kind": "write",
+  "data_class": "phi",
+  "allowed_roles": [
+   "ward_staff"
+  ],
+  "required_args": [
+   "patient_ref",
+   "template"
+  ],
+  "description": "Send an email to a patient from the network's system."
+ },
+ {
+  "name": "grant_system_access",
+  "kind": "admin",
+  "data_class": "internal",
+  "allowed_roles": [
+   "bed_manager"
+  ],
+  "required_args": [
+   "user_ref",
+   "role"
+  ],
+  "description": "Grant a user a role on the legacy system."
+ },
+ {
+  "name": "merge_patient_records",
+  "kind": "write",
+  "data_class": "phi",
+  "allowed_roles": [
+   "bed_manager"
+  ],
+  "required_args": [
+   "patient_ref",
+   "duplicate_ref"
+  ],
+  "description": "Merge two patient records; not reversible from the legacy UI."
+ },
+ {
+  "name": "delete_ward_note",
+  "kind": "write",
+  "data_class": "phi",
+  "allowed_roles": [
+   "ward_staff"
+  ],
+  "required_args": [
+   "patient_ref",
+   "note_id"
+  ],
+  "description": "Delete a note from a patient's record."
+ }
+]
