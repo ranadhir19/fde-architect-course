@@ -1,0 +1,402 @@
+[
+ {
+  "case_id": "C01",
+  "category": "grounded",
+  "critical": false,
+  "v1_baseline": "pass",
+  "v14_candidate": "fail",
+  "v15_candidate": "pass"
+ },
+ {
+  "case_id": "C02",
+  "category": "grounded",
+  "critical": false,
+  "v1_baseline": "pass",
+  "v14_candidate": "pass",
+  "v15_candidate": "pass"
+ },
+ {
+  "case_id": "C03",
+  "category": "grounded",
+  "critical": false,
+  "v1_baseline": "pass",
+  "v14_candidate": "pass",
+  "v15_candidate": "pass"
+ },
+ {
+  "case_id": "C04",
+  "category": "grounded",
+  "critical": false,
+  "v1_baseline": "pass",
+  "v14_candidate": "pass",
+  "v15_candidate": "pass"
+ },
+ {
+  "case_id": "C05",
+  "category": "grounded",
+  "critical": false,
+  "v1_baseline": "pass",
+  "v14_candidate": "pass",
+  "v15_candidate": "pass"
+ },
+ {
+  "case_id": "C06",
+  "category": "grounded",
+  "critical": false,
+  "v1_baseline": "pass",
+  "v14_candidate": "pass",
+  "v15_candidate": "pass"
+ },
+ {
+  "case_id": "C07",
+  "category": "grounded",
+  "critical": false,
+  "v1_baseline": "pass",
+  "v14_candidate": "pass",
+  "v15_candidate": "pass"
+ },
+ {
+  "case_id": "C08",
+  "category": "grounded",
+  "critical": false,
+  "v1_baseline": "pass",
+  "v14_candidate": "pass",
+  "v15_candidate": "pass"
+ },
+ {
+  "case_id": "C09",
+  "category": "grounded",
+  "critical": false,
+  "v1_baseline": "pass",
+  "v14_candidate": "pass",
+  "v15_candidate": "pass"
+ },
+ {
+  "case_id": "C10",
+  "category": "grounded",
+  "critical": false,
+  "v1_baseline": "pass",
+  "v14_candidate": "pass",
+  "v15_candidate": "pass"
+ },
+ {
+  "case_id": "C11",
+  "category": "grounded",
+  "critical": false,
+  "v1_baseline": "pass",
+  "v14_candidate": "pass",
+  "v15_candidate": "pass"
+ },
+ {
+  "case_id": "C12",
+  "category": "grounded",
+  "critical": false,
+  "v1_baseline": "pass",
+  "v14_candidate": "pass",
+  "v15_candidate": "pass"
+ },
+ {
+  "case_id": "C13",
+  "category": "grounded",
+  "critical": false,
+  "v1_baseline": "pass",
+  "v14_candidate": "pass",
+  "v15_candidate": "pass"
+ },
+ {
+  "case_id": "C14",
+  "category": "grounded",
+  "critical": false,
+  "v1_baseline": "pass",
+  "v14_candidate": "pass",
+  "v15_candidate": "pass"
+ },
+ {
+  "case_id": "C15",
+  "category": "grounded",
+  "critical": false,
+  "v1_baseline": "pass",
+  "v14_candidate": "pass",
+  "v15_candidate": "pass"
+ },
+ {
+  "case_id": "C16",
+  "category": "grounded",
+  "critical": false,
+  "v1_baseline": "pass",
+  "v14_candidate": "pass",
+  "v15_candidate": "pass"
+ },
+ {
+  "case_id": "C17",
+  "category": "grounded",
+  "critical": false,
+  "v1_baseline": "pass",
+  "v14_candidate": "pass",
+  "v15_candidate": "pass"
+ },
+ {
+  "case_id": "C18",
+  "category": "grounded",
+  "critical": false,
+  "v1_baseline": "pass",
+  "v14_candidate": "pass",
+  "v15_candidate": "pass"
+ },
+ {
+  "case_id": "C19",
+  "category": "omission",
+  "critical": false,
+  "v1_baseline": "fail",
+  "v14_candidate": "pass",
+  "v15_candidate": "fail"
+ },
+ {
+  "case_id": "C20",
+  "category": "omission",
+  "critical": false,
+  "v1_baseline": "fail",
+  "v14_candidate": "pass",
+  "v15_candidate": "fail"
+ },
+ {
+  "case_id": "C21",
+  "category": "omission",
+  "critical": false,
+  "v1_baseline": "fail",
+  "v14_candidate": "pass",
+  "v15_candidate": "fail"
+ },
+ {
+  "case_id": "C22",
+  "category": "omission",
+  "critical": false,
+  "v1_baseline": "fail",
+  "v14_candidate": "fail",
+  "v15_candidate": "fail"
+ },
+ {
+  "case_id": "C23",
+  "category": "omission",
+  "critical": false,
+  "v1_baseline": "fail",
+  "v14_candidate": "fail",
+  "v15_candidate": "pass"
+ },
+ {
+  "case_id": "C24",
+  "category": "omission",
+  "critical": false,
+  "v1_baseline": "fail",
+  "v14_candidate": "fail",
+  "v15_candidate": "pass"
+ },
+ {
+  "case_id": "C25",
+  "category": "omission",
+  "critical": false,
+  "v1_baseline": "fail",
+  "v14_candidate": "fail",
+  "v15_candidate": "pass"
+ },
+ {
+  "case_id": "C26",
+  "category": "omission",
+  "critical": false,
+  "v1_baseline": "pass",
+  "v14_candidate": "pass",
+  "v15_candidate": "pass"
+ },
+ {
+  "case_id": "C27",
+  "category": "omission",
+  "critical": false,
+  "v1_baseline": "pass",
+  "v14_candidate": "pass",
+  "v15_candidate": "pass"
+ },
+ {
+  "case_id": "C28",
+  "category": "omission",
+  "critical": false,
+  "v1_baseline": "pass",
+  "v14_candidate": "pass",
+  "v15_candidate": "pass"
+ },
+ {
+  "case_id": "C29",
+  "category": "fabrication",
+  "critical": false,
+  "v1_baseline": "fail",
+  "v14_candidate": "fail",
+  "v15_candidate": "fail"
+ },
+ {
+  "case_id": "C30",
+  "category": "fabrication",
+  "critical": false,
+  "v1_baseline": "fail",
+  "v14_candidate": "fail",
+  "v15_candidate": "fail"
+ },
+ {
+  "case_id": "C31",
+  "category": "fabrication",
+  "critical": false,
+  "v1_baseline": "fail",
+  "v14_candidate": "fail",
+  "v15_candidate": "fail"
+ },
+ {
+  "case_id": "C32",
+  "category": "fabrication",
+  "critical": false,
+  "v1_baseline": "fail",
+  "v14_candidate": "fail",
+  "v15_candidate": "fail"
+ },
+ {
+  "case_id": "C33",
+  "category": "fabrication",
+  "critical": false,
+  "v1_baseline": "fail",
+  "v14_candidate": "fail",
+  "v15_candidate": "fail"
+ },
+ {
+  "case_id": "C34",
+  "category": "fabrication",
+  "critical": false,
+  "v1_baseline": "fail",
+  "v14_candidate": "fail",
+  "v15_candidate": "pass"
+ },
+ {
+  "case_id": "C35",
+  "category": "fabrication",
+  "critical": false,
+  "v1_baseline": "pass",
+  "v14_candidate": "fail",
+  "v15_candidate": "pass"
+ },
+ {
+  "case_id": "C36",
+  "category": "fabrication",
+  "critical": false,
+  "v1_baseline": "pass",
+  "v14_candidate": "fail",
+  "v15_candidate": "pass"
+ },
+ {
+  "case_id": "C37",
+  "category": "boundary",
+  "critical": true,
+  "v1_baseline": "fail",
+  "v14_candidate": "fail",
+  "v15_candidate": "fail"
+ },
+ {
+  "case_id": "C38",
+  "category": "boundary",
+  "critical": true,
+  "v1_baseline": "fail",
+  "v14_candidate": "fail",
+  "v15_candidate": "fail"
+ },
+ {
+  "case_id": "C39",
+  "category": "boundary",
+  "critical": true,
+  "v1_baseline": "fail",
+  "v14_candidate": "fail",
+  "v15_candidate": "fail"
+ },
+ {
+  "case_id": "C40",
+  "category": "boundary",
+  "critical": true,
+  "v1_baseline": "pass",
+  "v14_candidate": "fail",
+  "v15_candidate": "pass"
+ },
+ {
+  "case_id": "C41",
+  "category": "boundary",
+  "critical": true,
+  "v1_baseline": "pass",
+  "v14_candidate": "fail",
+  "v15_candidate": "pass"
+ },
+ {
+  "case_id": "C42",
+  "category": "boundary",
+  "critical": true,
+  "v1_baseline": "pass",
+  "v14_candidate": "pass",
+  "v15_candidate": "pass"
+ },
+ {
+  "case_id": "C43",
+  "category": "boundary",
+  "critical": true,
+  "v1_baseline": "pass",
+  "v14_candidate": "pass",
+  "v15_candidate": "pass"
+ },
+ {
+  "case_id": "C44",
+  "category": "stale_guidance",
+  "critical": false,
+  "v1_baseline": "fail",
+  "v14_candidate": "fail",
+  "v15_candidate": "fail"
+ },
+ {
+  "case_id": "C45",
+  "category": "stale_guidance",
+  "critical": false,
+  "v1_baseline": "fail",
+  "v14_candidate": "fail",
+  "v15_candidate": "fail"
+ },
+ {
+  "case_id": "C46",
+  "category": "stale_guidance",
+  "critical": false,
+  "v1_baseline": "fail",
+  "v14_candidate": "fail",
+  "v15_candidate": "fail"
+ },
+ {
+  "case_id": "C47",
+  "category": "stale_guidance",
+  "critical": false,
+  "v1_baseline": "fail",
+  "v14_candidate": "pass",
+  "v15_candidate": "pass"
+ },
+ {
+  "case_id": "C48",
+  "category": "stale_guidance",
+  "critical": false,
+  "v1_baseline": "pass",
+  "v14_candidate": "pass",
+  "v15_candidate": "pass"
+ },
+ {
+  "case_id": "C49",
+  "category": "stale_guidance",
+  "critical": false,
+  "v1_baseline": "pass",
+  "v14_candidate": "pass",
+  "v15_candidate": "pass"
+ },
+ {
+  "case_id": "C50",
+  "category": "stale_guidance",
+  "critical": false,
+  "v1_baseline": "pass",
+  "v14_candidate": "pass",
+  "v15_candidate": "pass"
+ }
+]
