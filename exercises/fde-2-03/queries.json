@@ -1,0 +1,162 @@
+[
+ {
+  "query_id": "Q01",
+  "query": "discharge summary leaving hospital instructions",
+  "relevant_doc_ids": [
+   "D001",
+   "D002"
+  ]
+ },
+ {
+  "query_id": "Q02",
+  "query": "wound care home paperwork signed",
+  "relevant_doc_ids": [
+   "D003",
+   "D004"
+  ]
+ },
+ {
+  "query_id": "Q03",
+  "query": "followup appointment clinic review schedule",
+  "relevant_doc_ids": [
+   "D006",
+   "D007"
+  ]
+ },
+ {
+  "query_id": "Q04",
+  "query": "booking outpatient visit weeks letter",
+  "relevant_doc_ids": [
+   "D008",
+   "D009"
+  ]
+ },
+ {
+  "query_id": "Q05",
+  "query": "medication dose tablet prescription pharmacy",
+  "relevant_doc_ids": [
+   "D011",
+   "D012"
+  ]
+ },
+ {
+  "query_id": "Q06",
+  "query": "reconciliation allergy interaction list changes",
+  "relevant_doc_ids": [
+   "D013",
+   "D014"
+  ]
+ },
+ {
+  "query_id": "Q07",
+  "query": "transfer ward bed move handoff",
+  "relevant_doc_ids": [
+   "D016",
+   "D017"
+  ]
+ },
+ {
+  "query_id": "Q08",
+  "query": "porter notes receiving team escalation",
+  "relevant_doc_ids": [
+   "D018",
+   "D019"
+  ]
+ },
+ {
+  "query_id": "Q09",
+  "query": "billing code coding invoice charge",
+  "relevant_doc_ids": [
+   "D021",
+   "D022"
+  ]
+ },
+ {
+  "query_id": "Q10",
+  "query": "tariff claim payment finance audit",
+  "relevant_doc_ids": [
+   "D023",
+   "D024"
+  ]
+ },
+ {
+  "query_id": "Q11",
+  "query": "infection isolation hygiene swab screening",
+  "relevant_doc_ids": [
+   "D026",
+   "D027"
+  ]
+ },
+ {
+  "query_id": "Q12",
+  "query": "barrier cleaning outbreak precautions control",
+  "relevant_doc_ids": [
+   "D028",
+   "D029"
+  ]
+ },
+ {
+  "query_id": "Q13",
+  "query": "nutrition diet meal fluid weight",
+  "relevant_doc_ids": [
+   "D031",
+   "D032"
+  ]
+ },
+ {
+  "query_id": "Q14",
+  "query": "dietitian supplement intake fasting",
+  "relevant_doc_ids": [
+   "D033",
+   "D034"
+  ]
+ },
+ {
+  "query_id": "Q15",
+  "query": "physiotherapy mobility exercise referral rehabilitation",
+  "relevant_doc_ids": [
+   "D036",
+   "D037"
+  ]
+ },
+ {
+  "query_id": "Q16",
+  "query": "walking strength assessment stair frame",
+  "relevant_doc_ids": [
+   "D038",
+   "D039"
+  ]
+ },
+ {
+  "query_id": "Q17",
+  "query": "paperwork signed discharge summary",
+  "relevant_doc_ids": [
+   "D005",
+   "D001"
+  ]
+ },
+ {
+  "query_id": "Q18",
+  "query": "list changes medication dose",
+  "relevant_doc_ids": [
+   "D015",
+   "D011"
+  ]
+ },
+ {
+  "query_id": "Q19",
+  "query": "precautions control infection isolation",
+  "relevant_doc_ids": [
+   "D030",
+   "D026"
+  ]
+ },
+ {
+  "query_id": "Q20",
+  "query": "fasting allergy nutrition diet",
+  "relevant_doc_ids": [
+   "D035",
+   "D031"
+  ]
+ }
+]
