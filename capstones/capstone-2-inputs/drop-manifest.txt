@@ -1,0 +1,18 @@
+ALDER CREEK HEALTH NETWORK — LEGACY RECORDS FILE DROP
+=====================================================
+Drop reference: AC-DROP-2026-114
+Source system: WardRecord 4.2 (nightly extract)
+Destination: Supplier integration folder (SFTP)
+File: ehr-drop.csv
+Format: semicolon-delimited, dates DD/MM/YYYY, UTF-8
+
+Records delivered: 776
+Extract window: 2026-01-01 to 2026-09-30
+Generated: 2026-10-01 02:15
+
+Notes from the source system operator:
+- Count taken from the extract job log at generation time.
+- This manifest is the delivery record for reconciliation
+  purposes. Discrepancies between the manifest and the file
+  are the receiving supplier's to raise within five working
+  days of the drop.
