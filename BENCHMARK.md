@@ -30,7 +30,7 @@ phase publishes. Scores are published here, including the misses.**
 | Phase | Score | Essentials | Reviewer notes |
 |---|---|---|---|
 | Phase 1 | Pre-score 2026-11-24: 79/90 scorable points (87.8%); dimension 4 unscored pre-publish | Not yet at full marks — see pre-scoring notes | Pre-scored before the first Phase 1 lesson publishes, per the rule above; final scoring at phase completion |
-| Phase 2 | — pending production — | — | |
+| Phase 2 | Pre-score 2026-11-27: 78/90 scorable points (86.7%); dimension 4 unscored pre-publish | Not yet at full marks — see pre-scoring notes | Pre-scored before the first Phase 2 lesson publishes, per the rule above; final scoring at phase completion |
 | Phase 3 | — pending production — | — | |
 
 ## Phase 1 pre-scoring (2026-11-24, fresh-eyes, provisional)
@@ -63,3 +63,36 @@ lesson certification (dimensions 1 and 10), demonstrated
 capstone assessment (8), and engagement data (4). This is a
 pre-score, published with its misses as the scorecard promises;
 it is not a pass, and no Phase 1 lesson may cite it as one.
+
+## Phase 2 pre-scoring (2026-11-27, fresh-eyes, provisional)
+
+Scored against the Phase 2 artefacts that exist: all nine
+exercise packs (FDE 2.01–2.09) with rubrics and reference
+solutions, nine worked examples, the Capstone 2 brief and its
+input pack (1,200 synthetic clinician notes, an 800-record EHR
+drop whose manifest states 776, an 18-question security
+questionnaire, the supplier data-handling policy, and the sealed
+PHI-leak injection). No Phase 2 lesson has published yet —
+Phase 1 lessons are still publishing in curriculum order — and
+that fact caps several scores below.
+
+| # | Dimension | Pre-score | Evidence and the gap that remains |
+|---|---|---|---|
+| 1 | Quality / Accuracy *(Essential)* | 8/10 | Every Phase 2 reference solution reproduces its SOLUTION.md counts exactly and its grader passes (2.01: 5/5; 2.02–2.08: 6/6; 2.09: 7/7), verified at each pack's push. Lesson accuracy cannot be scored until Phase 2 lessons certify — full marks are not claimable yet. |
+| 2 | Depth | 9/10 | Layers 3–6 taught at advanced level across 2.01–2.09 (data audit, legacy integration, retrieval for one customer, agent permission scoping, customer evals, eval gates, observability, prototyping speed, security and privacy). Depth of treatment in the lesson videos is still to be proven. |
+| 3 | Explanation | 9/10 | A worked example exists in the repo for every Phase 2 topic, each on a different fictional customer (Larkspur Freight) from its exercise (Alder Creek Health Network). Whiteboard derivations will be specified in the Phase 2 lesson packs; delivery unscored until lessons publish. |
+| 4 | Engagement | — unscored | No Phase 2 lesson has published, so no retention or completion data exists. Scored at phase completion against the channel baseline, per the scorecard's own definition. |
+| 5 | First-principles fundamentality | 10/10 | Every Phase 2 topic maps to exactly one taxonomy layer in CURRICULUM.md (3, 3, 4, 4, 5, 5, 5, 4, 6) and is derived from the role's primitives, not from tools. |
+| 6 | Problem complexity | 9/10 | Exercises carry silent nulls and format drift (2.01), a manifest that disagrees with its file and a vendor whole-segment re-send (2.02), restricted documents that leak without a guardrail (2.03), a vendor proposal to expose every operation (2.04), and a sealed mid-project PHI-leak injection in Capstone 2 that re-opens the 2.09 threat model. |
+| 7 | Ease of learning | 9/10 | Dependency order is strict and stated: the 2.05 eval set becomes the 2.06 gate, its traces are the 2.07 record, the 2.08 prototype is the 2.09 threat model's subject, and Capstone 2 consumes the whole chain. Every exercise README states its prerequisites. |
+| 8 | Practice & Assessment *(Essential)* | 9/10 | An exercise with a published 24-point rubric for every topic; automated graders for every artefact that is code; Capstone 2 graded on its brief's rubric with a full input pack. Not full marks: the capstone's assessment is not yet demonstrated end to end, so completeness is not claimable yet. |
+| 9 | Transfer to the job *(Essential)* | 9/10 | Capstone 2 deliverables are the real artefacts: data audit report, reconciliation record, retrieval and exposure reports, eval and gate reports, observability report, threat model, and evidence-backed security questionnaire answers. The recorded-walkthrough artefact is exercised in later capstones, not this one. |
+| 10 | Production & packaging | 6/10 | The channel pipeline is proven on Phase 1 (trailer, introduction and Phase 1 lessons certified at 95 or better), but no Phase 2 lesson has yet passed certification; this score rises only as Phase 2 lessons certify. |
+
+**Pre-score verdict:** 78 of 90 scorable points (86.7%) — above
+the 85% line on what can be scored today, with the Essentials
+not yet at the full marks the bar requires. The named gaps are
+lesson certification (dimensions 1 and 10), demonstrated
+capstone assessment (8), and engagement data (4). This is a
+pre-score, published with its misses as the scorecard promises;
+it is not a pass, and no Phase 2 lesson may cite it as one.
