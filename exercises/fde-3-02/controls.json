@@ -1,0 +1,206 @@
+[
+ {
+  "id": "K01",
+  "name": "Unique user IDs and MFA for ward staff access",
+  "frameworks": [
+   "SOC2",
+   "HIPAA"
+  ],
+  "evidence_artefact": "Identity configuration export and MFA enrolment report",
+  "evidence_present": true,
+  "evidence_age_days": 20,
+  "max_evidence_age_days": 90,
+  "owner": "Identity lead",
+  "is_gate": true,
+  "note": "Enrolment is enforced at the identity provider; the export is regenerated monthly."
+ },
+ {
+  "id": "K02",
+  "name": "Audit logging of every retrieval and draft view",
+  "frameworks": [
+   "SOC2",
+   "HIPAA"
+  ],
+  "evidence_artefact": "Trace store configuration and a sampled week of audit logs",
+  "evidence_present": true,
+  "evidence_age_days": 10,
+  "max_evidence_age_days": 30,
+  "owner": "Platform lead",
+  "is_gate": true,
+  "note": "The 2.07 trace store is the artefact; sampling is the auditor's, not the team's."
+ },
+ {
+  "id": "K03",
+  "name": "Encryption in transit on every service path",
+  "frameworks": [
+   "SOC2",
+   "HIPAA"
+  ],
+  "evidence_artefact": "TLS configuration scan report",
+  "evidence_present": true,
+  "evidence_age_days": 45,
+  "max_evidence_age_days": 30,
+  "owner": "Platform lead",
+  "is_gate": false,
+  "note": "The scan predates the retrieval service's move to a new internal endpoint."
+ },
+ {
+  "id": "K04",
+  "name": "Encryption at rest for the document index",
+  "frameworks": [
+   "SOC2",
+   "HIPAA"
+  ],
+  "evidence_artefact": "Storage encryption attestation from the index host",
+  "evidence_present": true,
+  "evidence_age_days": 15,
+  "max_evidence_age_days": 90,
+  "owner": "Platform lead",
+  "is_gate": true,
+  "note": "Attestation is issued by the hosting tooling, not written by the team."
+ },
+ {
+  "id": "K05",
+  "name": "Quarterly access review for restricted documents",
+  "frameworks": [
+   "SOC2",
+   "HIPAA"
+  ],
+  "evidence_artefact": "Signed access-review record for the current quarter",
+  "evidence_present": true,
+  "evidence_age_days": 100,
+  "max_evidence_age_days": 90,
+  "owner": "Compliance lead",
+  "is_gate": true,
+  "note": "The review was signed, but last quarter; this quarter's review has not been run."
+ },
+ {
+  "id": "K06",
+  "name": "Incident response plan, tested",
+  "frameworks": [
+   "SOC2",
+   "HIPAA"
+  ],
+  "evidence_artefact": "Tabletop exercise record with findings and owners",
+  "evidence_present": true,
+  "evidence_age_days": 60,
+  "max_evidence_age_days": 180,
+  "owner": "",
+  "is_gate": false,
+  "note": "The tabletop was run and minuted; the minutes name actions but no owner for the plan itself."
+ },
+ {
+  "id": "K07",
+  "name": "Log retention enforced at thirty days",
+  "frameworks": [
+   "HIPAA"
+  ],
+  "evidence_artefact": "Retention enforcement report from the trace store",
+  "evidence_present": false,
+  "evidence_age_days": null,
+  "max_evidence_age_days": 30,
+  "owner": "Compliance lead",
+  "is_gate": true,
+  "note": "Retention is configured in the trace store; the enforcement report the control names was never produced."
+ },
+ {
+  "id": "K08",
+  "name": "Backups restore-tested",
+  "frameworks": [
+   "SOC2"
+  ],
+  "evidence_artefact": "Restore test record for the index and trace stores",
+  "evidence_present": true,
+  "evidence_age_days": 25,
+  "max_evidence_age_days": 90,
+  "owner": "Platform lead",
+  "is_gate": false,
+  "note": "Restore was tested into an isolated project, timed, and recorded."
+ },
+ {
+  "id": "K09",
+  "name": "Vendor risk assessment for the model provider",
+  "frameworks": [
+   "SOC2",
+   "HIPAA"
+  ],
+  "evidence_artefact": "Signed data-processing agreement and risk assessment",
+  "evidence_present": true,
+  "evidence_age_days": 40,
+  "max_evidence_age_days": 365,
+  "owner": "Vendor manager",
+  "is_gate": true,
+  "note": "The agreement covers the private-endpoint deployment chosen in 3.01."
+ },
+ {
+  "id": "K10",
+  "name": "Change management for model and prompt changes",
+  "frameworks": [
+   "SOC2"
+  ],
+  "evidence_artefact": "Eval gate records for the last three model changes",
+  "evidence_present": true,
+  "evidence_age_days": 5,
+  "max_evidence_age_days": 30,
+  "owner": "",
+  "is_gate": false,
+  "note": "The 2.06 gate records exist per change; nobody has been named as the gate's owner."
+ },
+ {
+  "id": "K11",
+  "name": "Workforce privacy training, current",
+  "frameworks": [
+   "HIPAA"
+  ],
+  "evidence_artefact": "Training completion list for staff with system access",
+  "evidence_present": true,
+  "evidence_age_days": 200,
+  "max_evidence_age_days": 365,
+  "owner": "People lead",
+  "is_gate": false,
+  "note": "Completion is tracked by the people team; two new joiners are inside their grace period."
+ },
+ {
+  "id": "K12",
+  "name": "Vulnerability scanning of the deployment",
+  "frameworks": [
+   "SOC2"
+  ],
+  "evidence_artefact": "Most recent vulnerability scan report",
+  "evidence_present": false,
+  "evidence_age_days": null,
+  "max_evidence_age_days": 30,
+  "owner": "Platform lead",
+  "is_gate": false,
+  "note": "Scanning is licensed and configured; the first report has not been run."
+ },
+ {
+  "id": "K13",
+  "name": "Minimum-necessary scoping of restricted documents",
+  "frameworks": [
+   "HIPAA"
+  ],
+  "evidence_artefact": "Permission scoping review against the 2.04 exposure report",
+  "evidence_present": true,
+  "evidence_age_days": 12,
+  "max_evidence_age_days": 90,
+  "owner": "Clinical informatics lead",
+  "is_gate": false,
+  "note": "The review re-ran the 2.04 scoping rules against the live index."
+ },
+ {
+  "id": "K14",
+  "name": "Media handling for physical imports",
+  "frameworks": [
+   "SOC2",
+   "HIPAA"
+  ],
+  "evidence_artefact": "Media handling and disposal log",
+  "evidence_present": true,
+  "evidence_age_days": 80,
+  "max_evidence_age_days": 90,
+  "owner": "Facilities lead",
+  "is_gate": false,
+  "note": "Imports arrive on physical media under the air-gap procedure; the log is countersigned."
+ }
+]
