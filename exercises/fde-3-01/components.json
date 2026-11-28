@@ -1,0 +1,122 @@
+[
+ {
+  "adapt_hours": 2,
+  "id": "C01",
+  "is_core": true,
+  "name": "Shipper portal web UI",
+  "note": "Static web UI served from any web server.",
+  "requires_internet": false,
+  "self_hostable": true,
+  "sends_regulated_data_out": false
+ },
+ {
+  "adapt_hours": 2,
+  "id": "C02",
+  "is_core": true,
+  "name": "API gateway",
+  "note": "Routes and authenticates calls inside the deployment boundary.",
+  "requires_internet": false,
+  "self_hostable": true,
+  "sends_regulated_data_out": false
+ },
+ {
+  "adapt_hours": 3,
+  "id": "C03",
+  "is_core": true,
+  "name": "Exception triage service",
+  "note": "The application logic built in Phase 2 style: rules, workflow, state.",
+  "requires_internet": false,
+  "self_hostable": true,
+  "sends_regulated_data_out": false
+ },
+ {
+  "adapt_hours": 12,
+  "id": "C04",
+  "is_core": true,
+  "name": "Model inference via vendor API",
+  "note": "Prompts carry shipment and customer data. A self-hosted open-weight model is a real alternative, at real cost.",
+  "requires_internet": true,
+  "self_hostable": true,
+  "sends_regulated_data_out": true
+ },
+ {
+  "adapt_hours": 2,
+  "id": "C05",
+  "is_core": true,
+  "name": "Retrieval index over carrier documents",
+  "note": "Local vector store over documents already inside the boundary.",
+  "requires_internet": false,
+  "self_hostable": true,
+  "sends_regulated_data_out": false
+ },
+ {
+  "adapt_hours": 4,
+  "id": "C06",
+  "is_core": true,
+  "name": "Carrier rate feed ingestion",
+  "note": "Pulls published carrier rate and surcharge feeds. The feed is external by definition; the data it carries is published, not regulated.",
+  "requires_internet": true,
+  "self_hostable": false,
+  "sends_regulated_data_out": false
+ },
+ {
+  "adapt_hours": 6,
+  "id": "C07",
+  "is_core": false,
+  "name": "Cloud OCR for bills of lading",
+  "note": "Bills of lading carry shipper, consignee and goods data. No self-hosted OCR of acceptable quality was found in discovery.",
+  "requires_internet": true,
+  "self_hostable": false,
+  "sends_regulated_data_out": true
+ },
+ {
+  "adapt_hours": 3,
+  "id": "C08",
+  "is_core": false,
+  "name": "SaaS telemetry exporter",
+  "note": "Exports timings and counts only. A local collector can replace the SaaS endpoint.",
+  "requires_internet": true,
+  "self_hostable": true,
+  "sends_regulated_data_out": false
+ },
+ {
+  "adapt_hours": 5,
+  "id": "C09",
+  "is_core": true,
+  "name": "SaaS identity provider integration",
+  "note": "The customer directory can be federated locally instead of calling the SaaS provider.",
+  "requires_internet": true,
+  "self_hostable": true,
+  "sends_regulated_data_out": false
+ },
+ {
+  "adapt_hours": 4,
+  "id": "C10",
+  "is_core": false,
+  "name": "Vendor eval benchmark API",
+  "note": "Eval cases are built from real shipment examples, so calling the vendor API sends regulated data out.",
+  "requires_internet": true,
+  "self_hostable": false,
+  "sends_regulated_data_out": true
+ },
+ {
+  "adapt_hours": 2,
+  "id": "C11",
+  "is_core": false,
+  "name": "Automatic update service",
+  "note": "Pulls application and model updates automatically. Sends no customer data; it is a reach-out, not a send-out.",
+  "requires_internet": true,
+  "self_hostable": false,
+  "sends_regulated_data_out": false
+ },
+ {
+  "adapt_hours": 2,
+  "id": "C12",
+  "is_core": true,
+  "name": "Audit log store",
+  "note": "Local append-only store. Its whole point is that it never leaves.",
+  "requires_internet": false,
+  "self_hostable": true,
+  "sends_regulated_data_out": false
+ }
+]
